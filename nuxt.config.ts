@@ -10,6 +10,15 @@ export default defineNuxtConfig({
     modules: [
         "nuxt-swiper",
         [
+            "@nuxtjs/google-fonts",
+            {
+                families: {
+                    Lato: [300, 400, 700, 900],
+                    Roboto: [400, 500, 700],
+                },
+            },
+        ],
+        [
             "@pinia/nuxt",
             {
                 autoImports: [["defineStore", "definePiniaStore"]],
