@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color1: #1f2432;
+    --main-color2: #797b86;
+    color: var(--main-color1);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    li {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto 100px;
+}
